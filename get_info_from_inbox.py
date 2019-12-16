@@ -10,6 +10,7 @@
 import csv
 import win32com.client
 from win32com.client import Dispatch, constants
+import time
 
 # check to see if outlook is running, if not open
 def outlook_is_running():
@@ -23,9 +24,8 @@ def outlook_is_running():
 if not outlook_is_running():
     import os
     os.startfile("outlook")
-
-# now wait 30 secs for outlook to open
-time.sleep(30)
+	# now wait 30 secs for outlook to open
+    time.sleep(30)
 
 outlook = win32com.client.Dispatch("Outlook.Application").GetNamespace("MAPI")
 
