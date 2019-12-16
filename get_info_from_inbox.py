@@ -40,10 +40,10 @@ fileName = 'Healthy-Cohort_email-database.csv'
 fullFile = dir + fileName
 
 # define Inbox and destination folders in outlook
-inbox = outlook.GetDefaultFolder(6)
-messages = inbox.Items
+inbox = outlook.GetDefaultFolder(6) # This is the default Inbox folder
+messages = inbox.Items              # get the inbox items
 lengthInbox = len(messages)
-destination = outlook.GetDefaultFolder(6).Folders['PhD'].Folders['Particpants'].Folders['UoA web enquiries'].Folders['First reply sent']
+destination = inbox.Folders['PhD'].Folders['Particpants'].Folders['UoA web enquiries'].Folders['First reply sent']
 
 # initialise
 writeRows = []
