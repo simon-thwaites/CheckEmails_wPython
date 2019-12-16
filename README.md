@@ -11,7 +11,7 @@ This script can be executed at any time. But also in this repository is a .bat f
 ~~~~~
 Email sender: "web.requests@adelaide.edu.au"
 Email subject: "Webform submission - Knee function study"
-~~~~~
+
 Submitted on Mon, 12/16/2019 - 09:32
 Submitted by: Anonymous
 Submitted values are:
