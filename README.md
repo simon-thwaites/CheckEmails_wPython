@@ -8,10 +8,10 @@ This script will first check that Outlook is open, then extracts information fro
 
 This script can be executed at any time. But also in this repository is a .bat file which is set up to call get_info_from_inbox.py every 60 seconds. I have configured Windows Task Scheduler to execute the .bat file at each logon.
 
---------------------------------------
+~~~~~
 Email sender: "web.requests@adelaide.edu.au"
 Email subject: "Webform submission - Knee function study"
--------------------------------------- 
+~~~~~
 Submitted on Mon, 12/16/2019 - 09:32
 Submitted by: Anonymous
 Submitted values are:
@@ -35,4 +35,4 @@ Height
 
 Weight
 80
---------------------------------------
+~~~~~
