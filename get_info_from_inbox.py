@@ -51,7 +51,7 @@ submissionCounter = 0
 
 # loop through inbox in reverse order because can always access [first] when moving emails. 
 # Otherwise might encounter error from out of index
-for x in range(lengthInbox, 0, -1):
+for x in range(lengthInbox, 0, -1):     # reverse
     message = messages[x]               # outlook indexing starts at 1 not 0
     subject_content = message.Subject   # email subject line
     sender = message.SenderEmailAddress # email sender
