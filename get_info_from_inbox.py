@@ -6,6 +6,11 @@
 #     - send email to the applicant
 #     - move the email to the destination folder
 #     - if Outlook isn't running, this will open Outlook before running rest of script.
+# ======================================================================
+# author: Simon Thwaites
+# Email:  simonthwaites1991@gmail.com
+# Date:   17/12/2019
+# ======================================================================
 
 import csv
 import win32com.client
