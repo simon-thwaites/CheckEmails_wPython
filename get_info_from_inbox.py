@@ -57,7 +57,7 @@ for x in range(lengthInbox-1, -1, -1):     # reverse
     sender = message.SenderEmailAddress # email sender
     
     # check email sender and email subject both fit criteria
-    if subject_content == 'Webform submission - Knee function study' and sender == 'web.requests@adelaide.edu.au':
+    if subject_content == 'Webform submission - Knee function study':
         submissionCounter += 1
         message.UnRead = True            # mark email as unread
         body_content = message.Body      # email body text
