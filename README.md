@@ -28,7 +28,7 @@ Phone number
 000
 
 Email address
-simonthwaites1991@gmail.com
+email_address@gmail.com
 
 Height
 180
