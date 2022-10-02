@@ -8,7 +8,7 @@
 #     - if Outlook isn't running, this will open Outlook before running rest of script.
 # ======================================================================
 # author: Simon Thwaites
-# Email:  simonthwaites1991@gmail.com
+# Email:  simon.thwaites.biomech@gmail.com
 # Date:   17/12/2019
 # ======================================================================
 
