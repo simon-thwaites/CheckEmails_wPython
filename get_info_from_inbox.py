@@ -35,7 +35,7 @@ if not outlook_is_running():
 outlook = win32com.client.Dispatch("Outlook.Application").GetNamespace("MAPI")
 
 # directory of email datbase and file name
-dir = 'C:/Users/a1194788/Box/01. PhD/05. Participant Information/02. Prospective healthy cohort/'
+dir = 'your/directory/here/for/the/csv/file'
 fileName = 'Healthy-Cohort_email-database.csv'
 fullFile = dir + fileName
 
